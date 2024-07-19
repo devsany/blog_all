@@ -7,9 +7,9 @@ const BlogLink = () => {
         <li>
           <NavLink to="/blog/general_theme">General Theam</NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/blog/tech_&_Program">Tech and Program</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to="/blog/travel">Travel</NavLink>
         </li>

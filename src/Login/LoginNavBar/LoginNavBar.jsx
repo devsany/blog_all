@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 const LoginNavBar = () => {
-
-const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -20,9 +19,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               <li>
                 <NavLink to="/login/general_theme">General Theam</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to="/login/tech_&_Program">Tech & Program</NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink to="/login/travel">Travel</NavLink>
               </li>
