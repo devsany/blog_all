@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 06598cd687993aa14832109c5aae612a7584a352
 Here are some creative blog name ideas:
 
 ### General Themes
