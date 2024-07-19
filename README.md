@@ -1,4 +1,4 @@
- # React + Vite (Blog Project)
+ 
 Here are some creative blog name ideas:
 ### General Themes
 1. **The Curious Mind**
