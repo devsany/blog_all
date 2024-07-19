@@ -38,7 +38,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
     "autoprefixer": "^10.4.19",
+    "babel-jest": "^29.7.0",
+    "jest-mock-axios": "^4.7.3",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6"
   }

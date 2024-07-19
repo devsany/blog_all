@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import LoginNavBar from "../../LoginNavBar/LoginNavBar";
 
@@ -9,6 +9,7 @@ const LifestyleLogin = () => {
   const [highlightTopic, setHighlightTopic] = useState(false);
   const [highlightRelation, setHighlightRelation] = useState(false);
   const [highlightDescription, setHighlightDescription] = useState(false);
+  const [data, setData] = useState([]);
 
   const update = (e) => {
     e.preventDefault();
@@ -29,7 +30,7 @@ const LifestyleLogin = () => {
         description: description,
       });
       (function updatedDate() {
-        alert(`Topic is Updated to Tech and Programing Blog`);
+        alert(`Topic is Updated to Lifestyle Blog`);
       })();
       setTopic("");
       setRelation("");
@@ -39,6 +40,25 @@ const LifestyleLogin = () => {
       setHighlightDescription(false);
     }
   };
+  const showData = async () => {
+    const data = await fetch(
+      "https://66990d882069c438cd712276.mockapi.io/Lifestyle"
+    );
+    const res = await data.json();
+    setData(res);
+    console.log(res);
+  };
+  const handleDelete = (id) => {
+    console.log(id);
+    axios
+      .delete(`https://66990d882069c438cd712276.mockapi.io/Lifestyle/${id}`)
+      .then(() => {
+        showData();
+      });
+  };
+  useEffect(() => {
+    showData();
+  }, []);
   return (
     <div>
       <LoginNavBar />
@@ -106,6 +126,43 @@ const LifestyleLogin = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="table">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Topic</th>
+              <th>Relation</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data &&
+              data.map((elem, i) => {
+                return (
+                  <>
+                    <tr key={i}>
+                      <td>{elem.id}</td>
+                      <td>{elem.topic}</td>
+                      <td>{elem.realtion}</td>
+                      <td>{elem.description}</td>
+                      <td>
+                        <button
+                          className="button button-primary"
+                          onClick={() => {
+                            handleDelete(elem.id);
+                          }}
+                        >
+                          Delete
+                        </button>
+                      </td>
+                    </tr>
+                  </>
+                );
+              })}
+          </tbody>
+        </table>
       </div>
     </div>
   );
