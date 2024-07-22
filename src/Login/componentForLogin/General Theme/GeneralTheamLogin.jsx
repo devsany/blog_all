@@ -51,9 +51,7 @@ const GeneralTheamLogin = () => {
   const handleDelete = (id) => {
     console.log(id);
     axios
-      .delete(
-        `https://66990e8a2069c438cd7126f1.mockapi.io/general/${id}`
-      )
+      .delete(`https://66990e8a2069c438cd7126f1.mockapi.io/general/${id}`)
       .then(() => {
         showData();
       });
@@ -66,13 +64,14 @@ const GeneralTheamLogin = () => {
       <LoginNavBar />
       <div className="container">
         <div className=" row">
-          <div className="form col-md-6 border border-red-100">
+          <div className="form col-md-6 border mt-5 p-1 border-red-100">
             <span style={{ color: `${highlightTopic ? "red" : "green"}` }}>
               {highlightTopic ? "Fill the Topic" : "Topic"}
             </span>
             <input
               type="text"
-              className="border border-black"
+              className="w-full px-4 py-2 h-[100px] mb-4 mt-1 leading-tight text-gray-700 bg-gray-200 border border-gray-300 rounded appearance-none focus:outline-none focus:bg-white focus:border-blue-500"
+              // className="border border-black"
               placeholder="Enter Topic"
               value={topic}
               onChange={(e) => {
@@ -88,7 +87,8 @@ const GeneralTheamLogin = () => {
             {/* <span>Enter Topic Related to</span> */}
             <input
               type="text"
-              className="border border-black"
+              className="w-full px-4 py-2 h-[100px] mb-4 mt-1 leading-tight text-gray-700 bg-gray-200 border border-gray-300 rounded appearance-none focus:outline-none focus:bg-white focus:border-blue-500"
+              // className="border border-black"
               placeholder="Enter Relation"
               value={relation}
               onChange={(e) => {
@@ -106,14 +106,15 @@ const GeneralTheamLogin = () => {
             {/* <span>Enter Topic Description</span> */}
             <input
               type="text"
-              className="border border-black"
+              className="w-full px-4 py-2 h-[100px] mb-4 mt-1 leading-tight text-gray-700 bg-gray-200 border border-gray-300 rounded appearance-none focus:outline-none focus:bg-white focus:border-blue-500"
+              // className="border border-black"
               placeholder="Enter Topic description"
               value={description}
               onChange={(e) => {
                 setDescription(e.target.value);
               }}
             />
-            <button className="btn btn-primary" onClick={update}>
+            <button className="btn float-right btn-primary" onClick={update}>
               Update
             </button>
           </div>

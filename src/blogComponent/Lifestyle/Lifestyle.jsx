@@ -37,7 +37,7 @@ const Lifestyle = () => {
                       <i>- 5 Min of reading</i>
                     </p>
                     <p className="text-justify">{elem.description}</p>
-                    <div className="w-[100%] shadow  pb-4 pt-4 align-bottom justify-center flex align-centre border border-black">
+                    <div className="w-[100%] shadow   align-bottom justify-center flex align-centre border border-black">
                       <ContactForm />
                     </div>
                   </div>

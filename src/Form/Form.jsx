@@ -11,9 +11,9 @@ function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="container sm:flex sm:justify-center   md:flex md:justify-around"
+      className="container sm:flex sm:justify-center pb-4 pt-2 bg-blue-100 md:align-middle md:flex md:justify-around"
     >
-      <div className="p-2 ">
+      <div className="p-2  ">
         <label htmlFor="email">Email Address</label>
         <br />
         <input
@@ -25,7 +25,7 @@ function ContactForm() {
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
-      <div className="p-2 ">
+      <div className="p-2   ">
         <textarea
           id="message"
           className="border border-black"

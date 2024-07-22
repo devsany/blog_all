@@ -19,14 +19,24 @@ const MainLink = () => {
           <nav>
             <ul
               className={`md:flex space-x-8 ${
-                isMenuOpen ? "block" : "hidden"
+                isMenuOpen ? "hidden" : "hidden"
               } md:block`}
             >
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/"
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/blog"
+                >
+                  Blog
+                </NavLink>
               </li>
             </ul>
             <div className="md:hidden">
@@ -48,20 +58,42 @@ const MainLink = () => {
             </div>
           </nav>
           <div>
-            <a
+            {/* <a
               href="#"
               className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
             >
               <NavLink to="/login">Login for adimn</NavLink>
-            </a>
+            </a> */}
+            <NavLink
+              className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              to="/login"
+            >
+              Login for admin
+            </NavLink>
           </div>
         </div>
-
+  
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
-          <ul className="bg-gray-800">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/blog">Blog</NavLink>
+          <ul className="bg-gray-800 inline-block list-none">
+            <li>
+              <NavLink
+                onClick={toggleMenu}
+                className="text-white inline-block mr-2 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                to="/"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={toggleMenu}
+                className="text-white inline-block mr-2 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                to="/blog"
+              >
+                Blog
+              </NavLink>
+            </li>
           </ul>
         </div>
       </header>

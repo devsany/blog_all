@@ -13,28 +13,58 @@ const LoginNavBar = () => {
           <nav>
             <ul
               className={`md:flex space-x-8 ${
-                isMenuOpen ? "block" : "hidden"
+                isMenuOpen ? "hidden" : "hidden"
               } md:block`}
             >
               <li>
-                <NavLink to="/login/general_theme">General Theam</NavLink>
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/login/general_theme"
+                >
+                  General Theam
+                </NavLink>
+                {/* <NavLink to="/login/general_theme">General Theam</NavLink> */}
               </li>
               {/* <li>
                 <NavLink to="/login/tech_&_Program">Tech & Program</NavLink>
               </li> */}
               <li>
-                <NavLink to="/login/travel">Travel</NavLink>
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/login/travel"
+                >
+                  Travel
+                </NavLink>
+                {/* <NavLink to="/login/travel">Travel</NavLink> */}
               </li>
               <li>
-                <NavLink to="/login/lifestyle">Lifestyle</NavLink>
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/login/lifestyle"
+                >
+                  Lifestyle
+                </NavLink>
+                {/* <NavLink to="/login/lifestyle">Lifestyle</NavLink> */}
               </li>
               <li>
-                <NavLink to="/login/personal_Development">
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/login/personal_Development"
+                >
                   Personal Development
                 </NavLink>
+                {/* <NavLink to="/login/personal_Development">
+                  Personal Development
+                </NavLink> */}
               </li>
               <li>
-                <NavLink to="/login/creative_Writing">Creative Writing</NavLink>
+                <NavLink
+                  className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/login/creative_Writing"
+                >
+                  Creative Writing
+                </NavLink>
+                {/* <NavLink to="/login/creative_Writing">Creative Writing</NavLink> */}
               </li>
             </ul>
             <div className="md:hidden">
@@ -55,14 +85,16 @@ const LoginNavBar = () => {
               </button>
             </div>
           </nav>
-          <div>
-            <a
-              href="#"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
-            >
-              <NavLink to="/">Admin logout</NavLink>
-            </a>
-          </div>
+          <nav>
+            <div>
+              <NavLink
+                className="text-white bg-gray-600 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                to="/"
+              >
+                Logout
+              </NavLink>
+            </div>
+          </nav>
         </div>
 
         {/* Mobile Menu */}
