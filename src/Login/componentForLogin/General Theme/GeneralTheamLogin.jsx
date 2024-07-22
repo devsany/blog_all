@@ -1,6 +1,7 @@
 import LoginNavBar from "../../LoginNavBar/LoginNavBar";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const GeneralTheamLogin = () => {
   const [topic, setTopic] = useState("");
@@ -56,6 +57,19 @@ const GeneralTheamLogin = () => {
         showData();
       });
   };
+  const nav = useNavigate();
+  const Login = () => {
+    const name = prompt("Enter your name");
+    const password = prompt("Enter Admin Password:");
+    if (name !== "sunny" && password !== "Bodhgaya@123") {
+      return nav("/");
+    } else {
+      return nav("/login/general_theme");
+    }
+  };
+  useEffect(() => {
+    Login();
+  }, []);
   useEffect(() => {
     showData();
   }, []);
@@ -135,7 +149,7 @@ const GeneralTheamLogin = () => {
       <hr />
 
       <div className="table   flex justify-center">
-      <table className="w-[99%] ml-3">
+        <table className="w-[99%] ml-3">
           <thead>
             <tr className="text-center">
               <th className="border border-black">ID</th>
@@ -149,11 +163,22 @@ const GeneralTheamLogin = () => {
               data.map((elem, i) => {
                 return (
                   <>
-                    <tr key={i} className="border cursor-pointer border-black hover:bg-gray-200">
-                      <td className="border   cursor-pointer border-black hover:bg-gray-400" >{elem.id}</td>
-                      <td className="border   cursor-pointer border-black hover:bg-gray-400" >{elem.topic}</td>
-                      <td className="border   cursor-pointer border-black hover:bg-gray-400" >{elem.realtion}</td>
-                      <td className="border p-3  cursor-pointer border-black hover:bg-gray-400" >{elem.description}</td>
+                    <tr
+                      key={i}
+                      className="border cursor-pointer border-black hover:bg-gray-200"
+                    >
+                      <td className="border   cursor-pointer border-black hover:bg-gray-400">
+                        {elem.id}
+                      </td>
+                      <td className="border   cursor-pointer border-black hover:bg-gray-400">
+                        {elem.topic}
+                      </td>
+                      <td className="border   cursor-pointer border-black hover:bg-gray-400">
+                        {elem.realtion}
+                      </td>
+                      <td className="border p-3  cursor-pointer border-black hover:bg-gray-400">
+                        {elem.description}
+                      </td>
                       <td>
                         <button
                           className="btn btn-danger"

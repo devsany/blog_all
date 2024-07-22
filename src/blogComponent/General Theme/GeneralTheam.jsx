@@ -11,7 +11,7 @@ const GeneralTheam = () => {
       "https://66990e8a2069c438cd7126f1.mockapi.io/general"
     );
     const res = await data.json();
-    setData(res);
+    setData(res.reverse());
     console.log(res);
   };
   useEffect(() => {
