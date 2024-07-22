@@ -118,7 +118,7 @@ const GeneralTheamLogin = () => {
               Update
             </button>
           </div>
-          <div className="relation col-md-6">
+          <div className="relation col-md-6 pt-[39px] pb-[40px]">
             <h1>General Themes</h1>
             <ul>
               <li>The Curious Mind</li>

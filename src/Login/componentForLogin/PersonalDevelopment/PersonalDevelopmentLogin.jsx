@@ -123,7 +123,7 @@ const PersonalDevelopmentLogin = () => {
               Update
             </button>
           </div>
-          <div className="relation col-md-6">
+          <div className="relation col-md-6 pt-[39px] pb-[40px]">
             <h1> Personal Development</h1>
             <ul>
               <li>Growth & Grit</li>

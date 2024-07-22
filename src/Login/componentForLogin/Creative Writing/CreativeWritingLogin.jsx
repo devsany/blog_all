@@ -124,7 +124,7 @@ const CreativeWritingLogin = () => {
               Update
             </button>
           </div>
-          <div className="relation col-md-6">
+          <div className="relation col-md-6 pt-[39px] pb-[40px]">
             <h1>Creative Writing</h1>
 
             <ul>
