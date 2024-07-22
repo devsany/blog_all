@@ -131,7 +131,9 @@ const TravelLogin = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-center mx-3">Table list of Blog</h1>
+      <hr />
+      <h1 className="text-center my-3">Table list of Blog</h1>
+      <hr />
       <div className="table flex justify-center ">
         <table className="w-[99%] ml-3">
           <thead>

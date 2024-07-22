@@ -33,9 +33,9 @@ const MainLink = () => {
               <li>
                 <NavLink
                   className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  to="/blog"
+                  to="/blog/general_theme"
                 >
-                  Blog
+                  Blogs
                 </NavLink>
               </li>
             </ul>
@@ -66,13 +66,13 @@ const MainLink = () => {
             </a> */}
             <NavLink
               className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              to="/login"
+              to="/login/general_theme"
             >
               Login for admin
             </NavLink>
           </div>
         </div>
-  
+
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
           <ul className="bg-gray-800 inline-block list-none">

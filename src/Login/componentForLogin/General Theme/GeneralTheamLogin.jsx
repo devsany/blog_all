@@ -130,14 +130,18 @@ const GeneralTheamLogin = () => {
           </div>
         </div>
       </div>
-      <div className="table">
-        <table>
+      <hr />
+      <h1 className="text-center my-3">Table list of Blog</h1>
+      <hr />
+
+      <div className="table   flex justify-center">
+      <table className="w-[99%] ml-3">
           <thead>
-            <tr>
-              <th>ID</th>
-              <th>Topic</th>
-              <th>Relation</th>
-              <th>Description</th>
+            <tr className="text-center">
+              <th className="border border-black">ID</th>
+              <th className="border border-black">Topic</th>
+              <th className="border border-black">Relation</th>
+              <th className="border border-black">Description</th>
             </tr>
           </thead>
           <tbody>
@@ -145,14 +149,14 @@ const GeneralTheamLogin = () => {
               data.map((elem, i) => {
                 return (
                   <>
-                    <tr key={i}>
-                      <td>{elem.id}</td>
-                      <td>{elem.topic}</td>
-                      <td>{elem.realtion}</td>
-                      <td>{elem.description}</td>
+                    <tr key={i} className="border cursor-pointer border-black hover:bg-gray-200">
+                      <td className="border   cursor-pointer border-black hover:bg-gray-400" >{elem.id}</td>
+                      <td className="border   cursor-pointer border-black hover:bg-gray-400" >{elem.topic}</td>
+                      <td className="border   cursor-pointer border-black hover:bg-gray-400" >{elem.realtion}</td>
+                      <td className="border p-3  cursor-pointer border-black hover:bg-gray-400" >{elem.description}</td>
                       <td>
                         <button
-                          className="button button-primary"
+                          className="btn btn-danger"
                           onClick={() => {
                             handleDelete(elem.id);
                           }}
