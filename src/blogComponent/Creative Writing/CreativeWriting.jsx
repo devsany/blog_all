@@ -11,7 +11,7 @@ const CreativeWriting = () => {
       "https://6698ebc42069c438cd70a6da.mockapi.io/creativeWriting"
     );
     const res = await data.json();
-    setData(res);
+    setData(res.reverse());
     console.log(res);
   };
   useEffect(() => {

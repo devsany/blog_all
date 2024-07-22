@@ -13,7 +13,7 @@ const Lifestyle = () => {
       "https://66990d882069c438cd712276.mockapi.io/Lifestyle"
     );
     const res = await data.json();
-    setData(res);
+    setData(res.reverse());
     console.log(res);
   };
   useEffect(() => {

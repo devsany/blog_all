@@ -99,16 +99,87 @@ const LoginNavBar = () => {
 
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
-          <ul className="bg-gray-800">
-            <NavLink to="/login/general_theme">General Theam</NavLink>
-            <NavLink to="/login/tech_&_Program">Tech & Program</NavLink>
-            <NavLink to="/login/travel">Travel</NavLink>
-            <NavLink to="/login/lifestyle">Lifestyle</NavLink>
-            <NavLink to="/login/personal_Development">
-              Personal Development
+          <div class="flex space-x-4 px-1 py-3">
+            <table className="border border-black">
+              <tr>
+                <th className="border border-slate-400 p-2 text-center">
+                  {" "}
+                  <NavLink
+                    className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    to="/login/general_theme"
+                  >
+                    General
+                  </NavLink>
+                </th>
+                <th className="border border-slate-400 text-center">
+                  <NavLink
+                    className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    to="/login/travel"
+                  >
+                    Travel
+                  </NavLink>
+                </th>
+                <th className="border border-slate-400 text-center">
+                  {" "}
+                  <NavLink
+                    className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    to="/login/lifestyle"
+                  >
+                    Life style
+                  </NavLink>
+                </th>
+                <th className="border border-slate-400 text-center">
+                  <NavLink
+                    className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    to="/login/personal_Development"
+                  >
+                    Developnemt
+                  </NavLink>
+                </th>
+                <th className="border border-slate-400 text-center">
+                  <NavLink
+                    className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    to="/login/creative_Writing"
+                  >
+                    Creative
+                  </NavLink>
+                </th>
+              </tr>
+            </table>
+
+            {/* <NavLink
+              className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              to="/blog/general_theme"
+            >
+              General Theam
             </NavLink>
-            <NavLink to="/login/creative_Writing">Creative Writing</NavLink>
-          </ul>
+
+            <NavLink
+              className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              to="/blog/travel"
+            >
+              Travel
+            </NavLink>
+
+            <NavLink
+              className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              to="/blog/lifestyle"
+            >
+              Life style
+            </NavLink>
+            <NavLink
+              className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              to="/blog/personal_Development"
+            >
+              Personal Developnemt
+            </NavLink>
+            <NavLink
+              className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              to="/blog/creative_Writing"
+            >
+              Creative Writing
+            </NavLink> */}
+          </div>
         </div>
       </header>
       {/* <ul>

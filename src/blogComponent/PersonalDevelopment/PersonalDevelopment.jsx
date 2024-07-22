@@ -14,7 +14,7 @@ const PersonalDevelopment = () => {
       "https://66990bf62069c438cd711d42.mockapi.io/personalDevelopment"
     );
     const res = await data.json();
-    setData(res);
+    setData(res.reverse());
     console.log(res);
   };
   useEffect(() => {
