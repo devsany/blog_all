@@ -8,6 +8,8 @@
 ![bolg_01](https://github.com/user-attachments/assets/9340b7eb-1089-467f-9f4b-a2bde25fa5ef)<br>
 3. In Blog Page it has <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i> <br>
 ![Blog_SubLink](https://github.com/user-attachments/assets/2cc0238d-a7b0-410a-8f7a-45ed2c370580)<br>
+4. Each Blog in Sub Blog link  <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i>  having Form to directly contact to author.<br>
+![Form_Fill](https://github.com/user-attachments/assets/58b19353-fc6c-4c32-a6d2-8434664e6b56)
 
 Here are some creative blog name ideas:
 
