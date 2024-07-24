@@ -5,14 +5,14 @@
 ### Description
 
  
-1.  Having a handing page [Home] page. Ypu will get to know about the Blog related to news,sport and many more. it will give user to get information<br>
+1.  Having a handing page [Home] page. Ypu will get to know about the Blog related to news,sport and many more. it will give user to get information
  ![home_page](https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3)
 <!--  <img src=" https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3"/> -->
 2. Next page is [Blog] page wihich will show the all the blog <br>
-![bolg_01](https://github.com/user-attachments/assets/9340b7eb-1089-467f-9f4b-a2bde25fa5ef)<br>
-3. In Blog Page it has <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i> <br>
-![Blog_SubLink](https://github.com/user-attachments/assets/2cc0238d-a7b0-410a-8f7a-45ed2c370580)<br>
-4. Each Blog in Sub Blog link  <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i>  having Form to directly contact to author.<br>
+![bolg_01](https://github.com/user-attachments/assets/9340b7eb-1089-467f-9f4b-a2bde25fa5ef)
+3. In Blog Page it has <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i> 
+![Blog_SubLink](https://github.com/user-attachments/assets/2cc0238d-a7b0-410a-8f7a-45ed2c370580)
+4. Each Blog in Sub Blog link  <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i>  having Form to directly contact to author.
 ![Form_Fill](https://github.com/user-attachments/assets/58b19353-fc6c-4c32-a6d2-8434664e6b56)
 5. Another Page is for admin for login into backend of Blog Application<br>
 ![login ](https://github.com/user-attachments/assets/f17ea5eb-d8b4-409b-acf6-229c971445bd)<br>
