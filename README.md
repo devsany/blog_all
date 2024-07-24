@@ -1,5 +1,11 @@
 <h1>Hi, Everyone</h1>
 <h3>A blog site which is very handy and it has <u>login for admin</u> button which made this site too realable to make owner operate site.</h3>
+<hr>
+<h1>Description</h1>
+1.  Having a handing page [Home] page. Ypu will get to know about the Blog related to news,sport and many more. it will give user to get information<br>
+![home_page](https://github.com/user-attachments/assets/b3fd2055-38ed-43b4-a8f1-23222f6b4538)
+
+
 Here are some creative blog name ideas:
 
 ### General Themes
