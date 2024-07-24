@@ -15,11 +15,18 @@
 ![login ](https://github.com/user-attachments/assets/f17ea5eb-d8b4-409b-acf6-229c971445bd)<br>
 6. On Click appare pop-up to fill the form which is admin username and admin password<br>
 ![username login](https://github.com/user-attachments/assets/4fc67768-ee86-41b0-a3d0-3297d24595f0)<br>
-7. And Password 
+7. And Password:-
 <br>
-![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)
+![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)<br>
+8. After login:- <br>
+ ![after login01](https://github.com/user-attachments/assets/29fa2207-46f3-417e-9724-9630efe73445)<br>
+  1. A nav bar apper.<br>
+  2. Select Blog Category.<br>
+  3. Go to input option.<br>
+  4. fill the form <i>Topic</i>,<i>Enter Topic Related to</i> you may copy it from fig no. 7 and <i>Enter topic Description</i>. 
 
-Here are some creative blog name ideas:
+
+Here are some creative blog name ideas: [Fig no.7]
 
 ### General Themes
 
