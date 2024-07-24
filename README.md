@@ -4,6 +4,7 @@
 <h1>Description</h1>
 1.  Having a handing page [Home] page. Ypu will get to know about the Blog related to news,sport and many more. it will give user to get information<br>
 ![home_page](https://github.com/user-attachments/assets/b3fd2055-38ed-43b4-a8f1-23222f6b4538)
+![home_page02](https://github.com/user-attachments/assets/60e06abf-281e-4ef3-a598-3d6aeea95619)
 
 
 Here are some creative blog name ideas:
