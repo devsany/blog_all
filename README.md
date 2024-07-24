@@ -7,6 +7,7 @@
 2. Next page is [Blog] page wihich will show the all the blog <br>
 ![bolg_01](https://github.com/user-attachments/assets/9340b7eb-1089-467f-9f4b-a2bde25fa5ef)
 3. In Blog Page it has <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i>
+![Blog_SubLink](https://github.com/user-attachments/assets/2cc0238d-a7b0-410a-8f7a-45ed2c370580)
 
 Here are some creative blog name ideas:
 
