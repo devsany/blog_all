@@ -1,9 +1,9 @@
 <h1>Hi, Everyone</h1>
 <h3>A blog site which is very handy and it has <u>login for admin</u> button which made this site too realable to make owner operate site.</h3>
 <hr>
-<h1>Description</h1>
+### Description
 
- ![home_page](https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3)
+ 
 1.  Having a handing page [Home] page. Ypu will get to know about the Blog related to news,sport and many more. it will give user to get information<br>
  ![home_page](https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3)
 <!--  <img src=" https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3"/> -->
