@@ -1,5 +1,5 @@
 <h1>Hi, Everyone</h1>
-<h3>A blog site which is very handy and it has <u>login for admin</u> button which made this site too realable to make owner operate site.</h3>
+<h3>A blog site which is very handy and it has <u>login for admin</u> button which made this site too realable to make owner to operate his/her site.</h3>
 <hr>
 
 ### Description
