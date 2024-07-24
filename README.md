@@ -21,20 +21,19 @@
 8. After login:- <br>
  ![after login01](https://github.com/user-attachments/assets/29fa2207-46f3-417e-9724-9630efe73445)<br>
   <hr>
-  1. A nav bar apper.<br>
-  2. Select Blog Category.<br>
-  3. Go to input option.<br>
-  4. fill the form [3] of [4] <i>Topic</i>,[5]<i>Enter Topic Related to</i> you may copy it from fig no. 7 and [6] <i>Enter topic Description</i>. 
+   1. A nav bar apper.<br>
+   2. Select Blog Category.<br>
+   3. Go to input option.<br>
+   4. fill the form [3] of [4] <i>Topic</i>,[5]<i>Enter Topic Related to</i> you may copy it from fig no. 7 and [6] <i>Enter topic Description</i>. 
 
- 5. Click Update Button
- 6. Click Logout and go to Blog page of user and you will find your blog
+  5. Click Update Button
+  6. Click Logout and go to Blog page of user and you will find your blog
    <hr>
 9. At the bottom of input box there is List of all Blog having <i>ID</i>,<i>Topic</i>, <i>Relation</i> and <i>Description Column</i>. Each column has Delete button so that Admin can delete any blog<br>
 ![list of table](https://github.com/user-attachments/assets/392b07c4-4a9a-4352-9b7e-0f04ad05ecff)
-![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)
-
+ 
 Here are some creative blog name ideas: [Fig no.7]
-![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)
+ ![after login01](https://github.com/user-attachments/assets/29fa2207-46f3-417e-9724-9630efe73445)
 ### General Themes
 
 1. **The Curious Mind**
