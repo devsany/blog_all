@@ -18,10 +18,13 @@
 6. On Click appare pop-up to fill the form which is admin username and admin password<br>
 ![username login](https://github.com/user-attachments/assets/4fc67768-ee86-41b0-a3d0-3297d24595f0)<br>
 7. And Password:-
-<br>
-![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)<br>
-8. After login:- <br>
- ![after login01](https://github.com/user-attachments/assets/29fa2207-46f3-417e-9724-9630efe73445)<br>
+   
+![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)
+
+8. After login:- 
+
+ ![after login01](https://github.com/user-attachments/assets/29fa2207-46f3-417e-9724-9630efe73445)
+
   <hr>
    1. A nav bar apper.<br>
    2. Select Blog Category.<br>
