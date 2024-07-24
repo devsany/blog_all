@@ -30,8 +30,9 @@
   5. Click Update Button
   6. Click Logout and go to Blog page of user and you will find your blog
    <hr>
-9. At the bottom of input box there is List of all Blog having <i>ID</i>,<i>Topic</i>, <i>Relation</i> and <i>Description Column</i>. Each column has Delete button so that Admin can delete any blog<br>
-![list of table](https://github.com/user-attachments/assets/392b07c4-4a9a-4352-9b7e-0f04ad05ecff)
+9. At the bottom of input box there is List of all Blog having <i>ID</i>,<i>Topic</i>, <i>Relation</i> and <i>Description Column</i>. Each column has Delete button so that Admin can delete any blog. 
+
+ ![list of table](https://github.com/user-attachments/assets/392b07c4-4a9a-4352-9b7e-0f04ad05ecff)
  
 Here are some creative blog name ideas: [Fig no.7]
  ![after login01](https://github.com/user-attachments/assets/29fa2207-46f3-417e-9724-9630efe73445)
