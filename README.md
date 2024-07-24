@@ -3,11 +3,11 @@
 <hr>
 <h1>Description</h1>
 1.  Having a handing page [Home] page. Ypu will get to know about the Blog related to news,sport and many more. it will give user to get information<br>
- ![home_page](https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3)
+ ![home_page](https://github.com/user-attachments/assets/98e174b0-e2a8-486b-97ae-7efaf05ed4c3)<br>
 2. Next page is [Blog] page wihich will show the all the blog <br>
-![bolg_01](https://github.com/user-attachments/assets/9340b7eb-1089-467f-9f4b-a2bde25fa5ef)
+![bolg_01](https://github.com/user-attachments/assets/9340b7eb-1089-467f-9f4b-a2bde25fa5ef)<br>
 3. In Blog Page it has <i>  General Themes</i>, <i> Travel </i>, <i>  Lifestyle</i>, <i>Personal Development  </i> and <i>Creative Writing  </i> <br>
-![Blog_SubLink](https://github.com/user-attachments/assets/2cc0238d-a7b0-410a-8f7a-45ed2c370580)
+![Blog_SubLink](https://github.com/user-attachments/assets/2cc0238d-a7b0-410a-8f7a-45ed2c370580)<br>
 
 Here are some creative blog name ideas:
 
