@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
- 
->>>>>>> 06598cd687993aa14832109c5aae612a7584a352
+1. <h3>A blog site which is very handy and it has login for admin button which made this site too realable to make owner operate site.</h3>
 Here are some creative blog name ideas:
 
 ### General Themes
