@@ -31,6 +31,7 @@
    <hr>
 9. At the bottom of input box there is List of all Blog having <i>ID</i>,<i>Topic</i>, <i>Relation</i> and <i>Description Column</i>. Each column has Delete button so that Admin can delete any blog<br>
 ![list of table](https://github.com/user-attachments/assets/392b07c4-4a9a-4352-9b7e-0f04ad05ecff)
+![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)
 
 Here are some creative blog name ideas: [Fig no.7]
 ![password login](https://github.com/user-attachments/assets/48b3871c-2dc9-4fbc-93c7-88431eaedc01)
